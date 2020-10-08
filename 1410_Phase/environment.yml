@@ -1,0 +1,15 @@
+name: seg-tutorial-phase
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+ - pip
+ - numpy
+ - scipy
+ - matplotlib
+ - ipywidgets
+ - jupyter
+ - jupyterlab
+ - pip:
+   - segyio
+   - tqdm

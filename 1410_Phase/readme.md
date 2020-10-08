@@ -2,9 +2,28 @@ How to run through the tutorial
 ===============================
 The code for this tutorial has been developed in GNU Octave a high level programming environment for linear algebra, signal processing and more. Octave is matlab compatible so this tutorial should also work in matlab should you have that available.
 
+
+2020 Refresh
+------------
+
+The tutorial code hase been ported to Python! and the repo now includes an [ipython notebook](./phase_and_hilbert_transform.ipynb) with all calculation and plotting code included.
+A remix of the article using the new plots is posted [here](https://iooxa.com/@stevejpurves/geoscience/phase-and-the-hilbert-transform).
+
+
+### Getting Started with the python version
+
+ - `conda env create -f environment.yml`
+ - `conda activate seg-tutorial-phase`
+ - `jupyter lab`
+
+
+2014 Original Version
+---------------------
+
+
 Expanded Tutorial Paper
 -----------------------
-A pdf of the expanded tutorial paper is [here](purves_tutorial_long.pdf) this includes plots of seismis attributes on sections are well as the trace plots included in the TLE tutorial.
+A pdf of the expanded tutorial paper is [here](purves_tutorial_long.pdf) this includes plots of seismic attributes on sections are well as the trace plots included in the TLE tutorial.
 
 Installation
 ------------
