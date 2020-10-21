@@ -2,13 +2,32 @@ How to run through the tutorial
 ===============================
 The code for this tutorial has been developed in GNU Octave a high level programming environment for linear algebra, signal processing and more. Octave is matlab compatible so this tutorial should also work in matlab should you have that available.
 
+
+2020 Refresh
+------------
+
+The tutorial code hase been ported to Python! and the repo now includes an ipython notebook [here](./phase_and_hilbert_transform.ipynb)|[here](https://iooxa.com/@stevejpurves/geoscience/phaseandhilbert) with all calculation and plotting code included.
+A remix of the article using the new plots is posted [here](https://iooxa.com/@stevejpurves/geoscience/phase-and-the-hilbert-transform).
+
+
+### Getting Started with the python version
+
+ - `conda env create -f environment.yml`
+ - `conda activate seg-tutorial-phase`
+ - `jupyter lab`
+
+
+2014 Original Version
+---------------------
+
+
 Expanded Tutorial Paper
 -----------------------
-A pdf of the expanded tutorial paper is [here](purves_tutorial_long.pdf) this includes plots of seismis attributes on sections are well as the trace plots included in the TLE tutorial.
+A pdf of the expanded tutorial paper is [here](purves_tutorial_long.pdf) this includes plots of seismic attributes on sections are well as the trace plots included in the TLE tutorial.
 
 Installation
 ------------
-To install GNU octave, 
+To install GNU octave,
  - on Linux or MAC follow the instructions for your operating system on the [Octave website](http://www.gnu.org/software/octave/download.html) to get the appropriate packages. NOTE: some Linux distributions come with octave pre-installed.
  - on Windows download the latest binary installers distribution from [Octave Forge](http://sourceforge.net/projects/octave/files/Octave%20Windows%20binaries/)
  - on MacOS_X follow this [guide](http://wiki.octave.org/Octave_for_MacOS_X)
@@ -36,7 +55,7 @@ Open octave from the command line or start menu shortcut then carry out the foll
 
 Conclusions from working with Octave
 ------------------------------------
-Octave provides an alternative environment to the commercial Matlab package. The degree of similarity and compatibility is good, certainly for ore functions. However, there are limitations in Octave that make working with it challenging, the most significant being the lack of precompiled 64 bit builds, which limits the amount of data that we can load and process to 2GB. In this tutorial, we've worked with traces and seismic sections that in this case easily fit within that limit. 
+Octave provides an alternative environment to the commercial Matlab package. The degree of similarity and compatibility is good, certainly for ore functions. However, there are limitations in Octave that make working with it challenging, the most significant being the lack of precompiled 64 bit builds, which limits the amount of data that we can load and process to 2GB. In this tutorial, we've worked with traces and seismic sections that in this case easily fit within that limit.
 
 However, if you want to work with 3D data or generate maps over hilbert transformed data, then you'll need to put significant effort into managing memory and its likely your processing will be unnecessarily slow as a result, makign withing with 3D in Octave prohibitive.
 
