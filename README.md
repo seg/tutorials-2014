@@ -27,7 +27,7 @@ Questions? [Get in touch!](mailto:matt@agilegeoscience.com)
 ## August 2014
 - [Evaluate and compare colormaps](http://library.seg.org/doi/abs/10.1190/tle33080910.1), by Matteo Niccoli — article in *TLE*, with low-res figures (resulting in incorrect colours for Figure 3a).
 - [How to evaluate and compare colormaps](http://wiki.seg.org/wiki/How_to_evaluate_and_compare_color_maps) — article in SEG Wiki, with high-res figures
-- [IPython Notebook](https://github.com/seg/tutorials-2014/blob/master/1408_Evaluate_and_compare_colormaps/How_to_evaluate_and_compare_colormaps.ipynb)
+- [Jupyter Notebook](https://github.com/seg/tutorials-2014/blob/master/1408_Evaluate_and_compare_colormaps/How_to_evaluate_and_compare_colormaps.ipynb)
 
 ## October 2014
 - [Phase and the Hilbert transform](http://library.seg.org/doi/abs/10.1190/tle33101164.1), by Steve Purves &mdash; article in *TLE*
